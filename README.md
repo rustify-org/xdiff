@@ -11,6 +11,10 @@ cargo add reqwest --features rustls --no-default-features
 cargo add similar #https://github.com/mitsuhiko/similar
 cargo add console
 cargo build
+cargo add serde --features derive
+cargo add http_serde
+cargo add url --features serde
+cargo add serde_json
 ```
 
 ## test similar
